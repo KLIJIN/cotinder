@@ -2,8 +2,11 @@
   position: fixed;
   bottom: 6vh;
   width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-evenly;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .swipeButtons .MuiIconButton-root {
